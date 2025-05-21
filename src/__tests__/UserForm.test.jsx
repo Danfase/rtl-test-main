@@ -1,5 +1,5 @@
 import { render } from "@testing-library/react"
-import { UserForm } from "../components/UserForm"
+import { UserForm } from "../components/UserForm/"
 import { screen } from "@testing-library/react"
 import userEvent from "@testing-library/user-event"
 import { expect, test } from "vitest"
